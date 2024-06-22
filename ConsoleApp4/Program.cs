@@ -12,12 +12,8 @@ namespace Russian_roulette
     {
         static void Main(string[] args)
         {
-
-
             Roulette object1 = new Roulette();
             object1.Russianroulette1();
-
-
         }
     }
     public class Roulette
@@ -31,14 +27,11 @@ namespace Russian_roulette
         {
             Random rnd = new Random();
             gun[rnd.Next(1, 6)] = false;
-
-
             for (int i = 0; i < 3; i++)
             {
 
                 Console.WriteLine("Player 1's turn");
-                Console.ReadKey();
-
+                Console.ReadKey()
                 player1 = gun[bullet]; bullet++;
                 object2.bullet1_(bullet);
                 Console.WriteLine();
