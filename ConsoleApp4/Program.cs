@@ -65,7 +65,7 @@ namespace Russian_roulette
             for (int i = 0; i < bullet_; i++)
             {
                 Console.Write("*");
-                Console.WriteLine(  );
+              
             }
         }
     }
