@@ -31,7 +31,7 @@ namespace Russian_roulette
             {
 
                 Console.WriteLine("Player 1's turn");
-                Console.ReadKey()
+                Console.ReadKey();
                 player1 = gun[bullet]; bullet++;
                 object2.bullet1_(bullet);
                 Console.WriteLine();
